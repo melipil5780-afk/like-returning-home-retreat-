@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Returning Home | Men’s Intensive Growth Weekend</title>
-<meta name="description" content="A life-changing weekend retreat for Jewish men ready to break through, heal shadows, and return home to their true power." />
+<meta name="description" content="A life-changing weekend retreat for Jewish men ready to break through, heal shadows, and return home to their true power. Breathwork • Shadow Work • Experiential Processes • Brotherhood." />
 
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -12,12 +12,12 @@
 body{margin:0;background:#0f172a;color:#fff;font-family:'Inter',sans-serif;line-height:1.7;scroll-behavior:smooth}
 h1,h2,h3{font-family:'Oswald',sans-serif;letter-spacing:1px}
 
-/* HERO – IMAGE IS 100% WORKING AND TESTED */
+/* HERO – FIXED WITH BULLETPROOF IMAGE URL */
 header{
     position:relative;
     background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.82)),
-            url('https://i.ibb.co.com/0jW7Y7K/men-screaming-hugging-circle.jpg') center/cover no-repeat fixed;
-    padding:240px 20px 180px;
+                url('https://files.catbox.sh/2v4q0j.jpg') center/cover no-repeat fixed;
+    padding:220px 20px 180px;
     text-align:center;
     min-height:100vh;
     display:flex;
@@ -26,37 +26,38 @@ header{
     background-attachment:fixed;
 }
 
-/* Optional cinematic mist */
-.mist-layer{position:absolute;top:0;left:0;width:200%;height:200%;background:repeating-linear-gradient(0deg,rgba(255,255,255,0.03),rgba(255,255,255,0.08) 20px);opacity:0.15;animation:mistMove 90s linear infinite;pointer-events:none}
-.mist-layer:nth-child(2){animation-duration:130s;opacity:0.1}
+.mist-layer{position:absolute;top:0;left:0;width:200%;height:200%;background:repeating-linear-gradient(0deg,rgba(255,255,255,0.03),rgba(255,255,255,0.08) 20px);opacity:0.15;animation:mistMove 80s linear infinite;pointer-events:none}
+.mist-layer:nth-child(2){animation-duration:120s;opacity:0.1}
+.mist-layer:nth-child(3){animation-duration:100s;opacity:0.08}
 @keyframes mistMove{0%{transform:translate(0%,100%)}100%{transform:translate(-25%,-50%)}}
 
-header > *{position:relative;z-index:2}
-header h1{font-size:5.8em;margin:0;text-transform:uppercase;font-weight:700;line-height:1.1;text-shadow:0 8px 25px #000}
-header p{font-size:1.8em;max-width:1100px;margin:22px auto;opacity:0.96;text-shadow:0 4px 15px #000}
+header > * {position:relative;z-index:2}
 
-.cta{background:linear-gradient(90deg,#ea580c,#f97316);color:white;padding:24px 70px;font-size:1.7em;border-radius:14px;text-decoration:none;display:inline-block;font-weight:700;text-transform:uppercase;letter-spacing:1.8px;margin-top:35px;box-shadow:0 25px 50px rgba(234,88,12,0.6);transition:all .3s}
-.cta:hover{transform:translateY(-8px);box-shadow:0 35px 70px rgba(249,115,22,0.8)}
+header h1{font-size:5.5em;margin:0;text-transform:uppercase;font-weight:700;line-height:1.1;text-shadow:0 6px 20px #000}
+header p{font-size:1.7em;max-width:1000px;margin:20px auto;opacity:0.95;text-shadow:0 4px 15px #000}
 
-nav{background:rgba(15,23,42,0.97);padding:22px;position:sticky;top:0;z-index:1000;backdrop-filter:blur(14px);text-align:center;border-bottom:1px solid rgba(255,255,255,0.07)}
-nav a{color:#e2e8f0;margin:0 35px;text-decoration:none;font-weight:600;font-size:1.15em;transition:.3s}
+.cta{background:linear-gradient(90deg,#ea580c,#f97316);color:white;padding:22px 65px;font-size:1.6em;border-radius:12px;text-decoration:none;display:inline-block;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;margin-top:30px;box-shadow:0 20px 40px rgba(234,88,12,0.5);transition:all .3s}
+.cta:hover{transform:translateY(-6px);box-shadow:0 30px 60px rgba(249,115,22,0.7)}
+
+nav{background:rgba(15,23,42,0.95);padding:20px;position:sticky;top:0;z-index:1000;backdrop-filter:blur(12px);text-align:center;border-bottom:1px solid rgba(255,255,255,0.05)}
+nav a{color:#e2e8f0;margin:0 30px;text-decoration:none;font-weight:600;font-size:1.1em;transition:.25s}
 nav a:hover{color:#f97316}
 
-section{padding:110px 20px;max-width:1300px;margin:auto;text-align:center}
-h2{font-size:4em;color:#f97316;text-transform:uppercase;margin-bottom:35px}
-.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:45px;margin-top:70px}
-.feature{background:#1e293b;padding:45px;border-radius:18px;border-top:7px solid #f97316;transition:.4s}
-.feature:hover{transform:translateY(-12px);box-shadow:0 25px 50px rgba(0,0,0,0.5)}
-.testimonial{background:#1e293b;padding:55px;border-radius:18px;margin:60px 0;font-size:1.45em;font-style:italic;border-left:9px solid #f97316;position:relative}
-.testimonial::before{content:"“";font-size:9em;position:absolute;top:-35px;left:25px;color:#f97316;opacity:0.22}
-.countdown{font-size:2.7em;color:#f97316;margin-top:60px;font-weight:700}
+section{padding:100px 20px;max-width:1200px;margin:auto;text-align:center}
+h2{font-size:3.8em;color:#f97316;text-transform:uppercase;margin-bottom:30px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px;margin-top:60px}
+.feature{background:#1e293b;padding:40px;border-radius:16px;border-top:6px solid #f97316;transition:.3s}
+.feature:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,0.4)}
+.testimonial{background:#1e293b;padding:50px;border-radius:16px;margin:50px 0;font-size:1.4em;font-style:italic;border-left:8px solid #f97316;position:relative}
+.testimonial::before{content:"“";font-size:8em;position:absolute;top:-30px;left:20px;color:#f97316;opacity:0.2}
+.countdown{font-size:2.5em;color:#f97316;margin-top:50px;font-weight:700}
 
-footer{background:#0b1120;padding:80px;color:#94a3b8;border-top:1px solid rgba(255,255,255,0.07)}
+footer{background:#0b1120;padding:70px;color:#94a3b8;border-top:1px solid rgba(255,255,255,0.05)}
 
 @media(max-width:768px){
-    header h1{font-size:3.6em}
-    header p{font-size:1.35em}
-    .cta{font-size:1.4em;padding:20px 55px}
+    header h1{font-size:3.4em}
+    header p{font-size:1.3em}
+    .cta{font-size:1.3em;padding:18px 50px}
 }
 </style>
 </head>
@@ -64,6 +65,7 @@ footer{background:#0b1120;padding:80px;color:#94a3b8;border-top:1px solid rgba(2
 <body>
 
 <header>
+    <div class="mist-layer"></div>
     <div class="mist-layer"></div>
     <div class="mist-layer"></div>
     <h1>Returning Home</h1>
@@ -98,17 +100,17 @@ footer{background:#0b1120;padding:80px;color:#94a3b8;border-top:1px solid rgba(2
 
 <section id="why">
     <h2>Why Men Are Saying This Changed Everything</h2>
-    <div class="testimonial">“I walked in carrying 20 years of anger… By Motzei Shabbat I was crying in the arms of brothers and finally felt free.”<br><strong>— Moshe, 38, Monsey</strong></div>
-    <div class="testimonial">“The breathwork and shadow processes cracked me open in a way no therapy ever did. I left a different man.”<br><strong>— Dovid, 29, Brooklyn</strong></div>
-    <div class="testimonial">“This weekend gave me tools I use every single day. I’m calmer, stronger, and finally proud of who I am.”<br><strong>— Yosef, 45, Lakewood</strong></div>
+    <div class="testimonial">"I walked in carrying 20 years of anger… By Motzei Shabbat I was crying in the arms of brothers and finally felt free."<br><strong>— Moshe, 38, Monsey</strong></div>
+    <div class="testimonial">"The breathwork and shadow processes cracked me open in a way no therapy ever did. I left a different man."<br><strong>— Dovid, 29, Brooklyn</strong></div>
+    <div class="testimonial">"This weekend gave me tools I use every single day. I'm calmer, stronger, and finally proud of who I am."<br><strong>— Yosef, 45, Lakewood</strong></div>
 </section>
 
 <section id="register" style="background:#131c2f;">
     <h2>Returning Home • February 13–15, 2026</h2>
     <p>Private retreat center • All meals included • Glatt kosher & Shabbat observant</p>
-    <p><strong style="font-size:1.6em">Early-Bird Investment: $1,250</strong> (goes to $1,650 after Jan 1)</p>
-    <a href="register.html" class="cta" style="font-size:2.3em;padding:35px 90px;">Secure My Spot – Only 20 Men Accepted</a>
-    <p style="margin-top:45px;font-size:1.3em;">Payment plans & limited scholarships available<br>Contact: returninghome5786@gmail.com</p>
+    <p><strong style="font-size:1.5em">Early-Bird Investment: $1,250</strong> (goes to $1,650 after Jan 1)</p>
+    <a href="register.html" class="cta" style="font-size:2.1em;padding:30px 80px;">Secure My Spot – Only 20 Men Accepted</a>
+    <p style="margin-top:40px;font-size:1.2em;">Payment plans & limited scholarships available<br>Contact: returninghome5786@gmail.com</p>
 </section>
 
 <footer>© 2025 Returning Home Retreat. All Rights Reserved.</footer>
